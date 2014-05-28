@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC58748B-7531-4FD7-A364-1E512F0818AA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RSA</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A4942A2-A78E-4EE4-82FF-D5A69377A973</key>
+		<string>https://github.com/yashacorp/AES_RSA_ENCRYPTION.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RSA.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A4942A2-A78E-4EE4-82FF-D5A69377A973</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yashacorp/AES_RSA_ENCRYPTION.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A4942A2-A78E-4EE4-82FF-D5A69377A973</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A4942A2-A78E-4EE4-82FF-D5A69377A973</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RSA</string>
+		</dict>
+	</array>
+</dict>
+</plist>
