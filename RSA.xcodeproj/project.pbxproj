@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16044E101937774200802217 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 16044E0D1937774200802217 /* FBEncryptorAES.m */; };
+		16044E111937774200802217 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 16044E0F1937774200802217 /* NSData+Base64.m */; };
 		1667C9A2192D278E00FFD95C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1667C9A1192D278E00FFD95C /* Foundation.framework */; };
 		1667C9A4192D278E00FFD95C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1667C9A3192D278E00FFD95C /* CoreGraphics.framework */; };
 		1667C9A6192D278E00FFD95C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1667C9A5192D278E00FFD95C /* UIKit.framework */; };
@@ -21,8 +23,6 @@
 		1667C9CB192D278E00FFD95C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1667C9C9192D278E00FFD95C /* InfoPlist.strings */; };
 		1667C9CD192D278E00FFD95C /* RSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1667C9CC192D278E00FFD95C /* RSATests.m */; };
 		1667C9D7192D27A300FFD95C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1667C9D6192D27A300FFD95C /* Security.framework */; };
-		1667C9DA192D2BB500FFD95C /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 1667C9D9192D2BB500FFD95C /* FBEncryptorAES.m */; };
-		1667C9DD192D2BCF00FFD95C /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1667C9DC192D2BCF00FFD95C /* NSData+Base64.m */; };
 		16C8D3D81930E4D1006BD036 /* RSATestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C8D3D71930E4D1006BD036 /* RSATestViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16044E0C1937774200802217 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
+		16044E0D1937774200802217 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
+		16044E0E1937774200802217 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		16044E0F1937774200802217 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		1667C99E192D278E00FFD95C /* RSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1667C9A1192D278E00FFD95C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1667C9A3192D278E00FFD95C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,10 +59,6 @@
 		1667C9CA192D278E00FFD95C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1667C9CC192D278E00FFD95C /* RSATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSATests.m; sourceTree = "<group>"; };
 		1667C9D6192D27A300FFD95C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		1667C9D8192D2BB500FFD95C /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
-		1667C9D9192D2BB500FFD95C /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
-		1667C9DB192D2BCF00FFD95C /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		1667C9DC192D2BCF00FFD95C /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		16C8D3D61930E4D1006BD036 /* RSATestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSATestViewController.h; sourceTree = "<group>"; };
 		16C8D3D71930E4D1006BD036 /* RSATestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSATestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16044E0B1937774200802217 /* Other classes */ = {
+			isa = PBXGroup;
+			children = (
+				16044E0C1937774200802217 /* FBEncryptorAES.h */,
+				16044E0D1937774200802217 /* FBEncryptorAES.m */,
+				16044E0E1937774200802217 /* NSData+Base64.h */,
+				16044E0F1937774200802217 /* NSData+Base64.m */,
+			);
+			path = "Other classes";
+			sourceTree = "<group>";
+		};
 		1667C995192D278E00FFD95C = {
 			isa = PBXGroup;
 			children = (
@@ -124,14 +135,9 @@
 			children = (
 				1667C9B0192D278E00FFD95C /* RSAAppDelegate.h */,
 				1667C9B1192D278E00FFD95C /* RSAAppDelegate.m */,
-				1667C9B3192D278E00FFD95C /* Main.storyboard */,
 				16C8D3D61930E4D1006BD036 /* RSATestViewController.h */,
 				16C8D3D71930E4D1006BD036 /* RSATestViewController.m */,
-				1667C9D8192D2BB500FFD95C /* FBEncryptorAES.h */,
-				1667C9D9192D2BB500FFD95C /* FBEncryptorAES.m */,
-				1667C9DB192D2BCF00FFD95C /* NSData+Base64.h */,
-				1667C9DC192D2BCF00FFD95C /* NSData+Base64.m */,
-				1667C9B9192D278E00FFD95C /* Images.xcassets */,
+				16044E0B1937774200802217 /* Other classes */,
 				1667C9A8192D278E00FFD95C /* Supporting Files */,
 			);
 			path = RSA;
@@ -140,6 +146,8 @@
 		1667C9A8192D278E00FFD95C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1667C9B3192D278E00FFD95C /* Main.storyboard */,
+				1667C9B9192D278E00FFD95C /* Images.xcassets */,
 				1667C9A9192D278E00FFD95C /* RSA-Info.plist */,
 				1667C9AA192D278E00FFD95C /* InfoPlist.strings */,
 				1667C9AD192D278E00FFD95C /* main.m */,
@@ -265,9 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1667C9AE192D278E00FFD95C /* main.m in Sources */,
-				1667C9DD192D2BCF00FFD95C /* NSData+Base64.m in Sources */,
-				1667C9DA192D2BB500FFD95C /* FBEncryptorAES.m in Sources */,
 				1667C9B2192D278E00FFD95C /* RSAAppDelegate.m in Sources */,
+				16044E111937774200802217 /* NSData+Base64.m in Sources */,
+				16044E101937774200802217 /* FBEncryptorAES.m in Sources */,
 				16C8D3D81930E4D1006BD036 /* RSATestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

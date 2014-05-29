@@ -58,7 +58,7 @@ static const UInt8 privateKeyIdentifier[] = "com.apple.sample.privatekey";
     self.view.backgroundColor = [UIColor colorWithWhite:0.98f alpha:1.0f];
     
     textFieldMessage = [[UITextField alloc]initWithFrame:CGRectMake(20, 120, 280, 30)];
-    textFieldMessage.placeholder = @"Type youe message here";
+    textFieldMessage.placeholder = @"Type your message here";
     textFieldMessage.backgroundColor = [UIColor whiteColor];
     textFieldMessage.layer.borderWidth = 1.0f;
     textFieldMessage.layer.borderColor = [[UIColor lightGrayColor]CGColor];
@@ -169,7 +169,7 @@ static const UInt8 privateKeyIdentifier[] = "com.apple.sample.privatekey";
 
 
 
-// THIS METHODS DOWN BELOW WAS CREATED BY STACKOVERFLOW'S USER'S
+// THIS METHODS DOWN BELOW WERE CREATED BY STACKOVERFLOW'S USER'S
 
 
 
